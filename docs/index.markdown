@@ -78,25 +78,28 @@ To ensure you have a swift and easy start participating in our competition we pr
 
 ## FAQ
 
-**Q: What is this competition about?**
-
+**Q: What is this competition about?**  
 We are looking for the best neural predictive model that can predict the activity of thousands of neurons in the primary visual cortex of mice in response to natural images.
 
-**Q: Why are neural predictive models interesting?**
-
+**Q: Why are neural predictive models interesting?**  
 Accurate models of neuronal activity can serve as phenomenological digital twins for the visual cortex, allowing computational neuroscientists to derive new hypotheses about biological vision “in silico”, enabling systems neuroscientists to test them “in vivo”. On top of that, these models are relevant to machine learning researchers who use them to bridge the gap between biological and machine vision.
 
-**Q: Where will the results be presented?**
-
+**Q: Where will the results be presented?**  
 We are happy to announce that we are part of the NeurIPS 2023 competition track! We’ll host a virtual workshop at NeurIPS in December 2023 to present the winners and overall results of this competition.
 
-**Q: Are there plans for future data and competition releases?**
-
+**Q: Are there plans for future data and competition releases?**  
 We intend to start the competition this year at NeurIPS, but keep the website open for new challenges to make this website a valuable resource for data driven neural system identification models in mouse visual cortex and beyond.
 
 ## Organizers
 
-These are the organizers: 1,2,3,...
+| Polina Turishcheva *(University of Göttingen)* | Eric Y. Wang *(Baylor College of Medicine)* |
+| Konstantin F. Willeke *(University of Tübingen)* | Paul G. Fahey *(Baylor College of Medicine)* |
+| Mohammad Bashiri *(University of Tübingen)* | Laura Hansel *(University of Göttingen)* |
+| Max F. Burg *(University of Göttingen)* | Christoph Blessing *(University of Göttingen)* |
+| Santiago A. Cadena *(University of Tübingen)* | Zhiwei Ding *(Baylor College of Medicine)* |
+| Konstantin-Klemens Lurz *(University of Tübingen)* | Kayla Ponder *(Baylor College of Medicine)* |
+| Alexander Ecker *(University of Göttingen)* | Andreas S. Tolias *(Baylor College of Medicine)* |
+| Fabian H. Sinz *(University of Göttingen)* ||
 
 ## Contact
 
