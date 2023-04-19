@@ -4,6 +4,8 @@ title: SENSORIUM 2023
 permalink: /terms/
 ---
 
+# Terms of Use
+
 Last change April 2022
 
 Thank you for using sensorium2022.net (“Sensorium”). Please read these Terms of Use carefully before participating in Sensorium.

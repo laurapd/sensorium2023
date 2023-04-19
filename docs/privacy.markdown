@@ -4,6 +4,8 @@ title: SENSORIUM 2023
 permalink: /privacy/
 ---
 
+# Privacy Policy
+
 Last change April 2022
 
 The protection of your personal data while you are visiting this website is very important to us. We take the protection of your personal data seriously and want you to feel comfortable on our website.

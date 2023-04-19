@@ -4,6 +4,8 @@ title: SENSORIUM 2023
 permalink: /acknowledgements/
 ---
 
+# Acknowledgements
+
 <span style="font-size:large;">**We were generously supported by these funding agencies**</span>
 
 KKL is funded by the German Federal Ministry of Education and Research through the Tübingen AI Center (FKZ: 01IS18039A). FHS is supported by the Carl-Zeiss-Stiftung and acknowledges the support of the DFG Cluster of Excellence “Machine Learning – New Perspectives for Science”, EXC 2064/1, project number 390727645. This work was supported by an AWS Machine Learning research award to FHS. Mohammad Bashiri and SAC were supported by the International Max Planck Research School for Intelligent Systems.
