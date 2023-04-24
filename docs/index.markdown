@@ -18,16 +18,28 @@ Understanding how the brain processes visual input is a long standing goal in ne
 
 **Benchmarking the predictive performance of your model on large-scale datasets.**
 
-The SENSORIUM 2023 competition offers a publicly available, large-scale dataset consisting of the activity from over 28,000 neurons from the primary visual cortex of seven different mice in response to thousands of natural images. The dataset also includes additional behavioral measurements such as running speed, pupil dilation and eye movements. The performance of predictive models can be automatically evaluated by submitting predicted neural responses to our website which will display the performance of all submissions in a leaderboard for easy comparison.
+The SENSORIUM 2023 competition offers a publicly available, large-scale dataset consisting of the activity from over 38,000 neurons from the primary visual cortex of five different mice in response to around 1800 natural scene videos (around 10 seconds). The dataset also includes additional behavioral measurements such as running speed, pupil dilation and eye movements. The performance of predictive models can be automatically evaluated by submitting predicted neural responses to our website which will display the performance of all submissions in a leaderboard for easy comparison.
+
+The SENSORIUM 2022 competition approached this issue for static stimulus (pictures) models. This year we are adding a time dimensional component and try to inspire community to establish a benchmark dataset and a model for dynamic stimulus (videos). See more about data in the whitepaper and data section.
 
 **Currently, we offer two benchmark tracks**
 
-Stimulus-only in our SENSORIUM track, and stimulus-and-behavior in our SENSORIUM+ track. Stimulus-only models are assessed on how well they predict neural activity solely considering the stimulus averaged over trials. Since the animal's behavior and its internal brain state influence the responses, we introduce the SENSORIUM+ track, where model performance is assessed based on how well they can predict individual trials given behavioral variables.
+<!-- Stimulus-only in our SENSORIUM track, and stimulus-and-behavior in our SENSORIUM+ track. Stimulus-only models are assessed on how well they predict neural activity solely considering the stimulus averaged over trials. Since the animal's behavior and its internal brain state influence the responses, we introduce the SENSORIUM+ track, where model performance is assessed based on how well they can predict individual trials given behavioral variables. -->
+There is a main track and a bonus track. The focus of the main track is to predict the neuronal activity for dynamic stimuli, while the focus of the bonus is to generalize to out of domain (OOD) stimuli.
+
+**Main Track**
+
+We provide data from 5 mice, more than 38,000 neurons, around 1800 natural scene videos (around 10 seconds), and additionally behavioral activity (pupil center, pupil dilation, and running speed). The goal is to train a networks, which would predict the neuronal activity for the neurons. To see more details about data or metrics see the corresponding section.
+*Please note that this year there is not separate track for behaviour. It is up for the team if they want to use behavioural data or not.*
+
+**Bonus Track**
+
+We think that from a biological perspective it is crucial to have not only good performing but also generalizable models. Hence, we establish a bonus track with five out of domain (OOD) stimuli to measure the models' generalizable capabilities. This track would have one winning team.
 
 **Let's predict how the brain processes what we see!**
 
 ## Timeline
-* May 20    Full website and starting kit release.
+* May 22    Full website and starting kit release.
 * June 01     Start of the competition and data release.
 * Sept 22    Submission deadline.
 * Sept 29    Validation of all submitted scores completed. Final test set scores released. 
@@ -54,28 +66,30 @@ To ensure you have a swift and easy start participating in our competition we pr
 * **No restrictions**              We do not place any restrictions on the approaches you can choose
                                         from, be it by inclusion of additional data, or by using pre-trained
                                         models.
-* **Submission deadline**   Submissions must be received between 00:00 GMT 6/20/2023 and
-                                        00:00 GMT 10/15/2023 formatted as .csv file.
-* **Valid email**                     You have to register with a valid email address to submit.
-* **Winning**                         The highest 3 performing submissions on the final test set will be 
-                                        identified as potential winners. The authors of these submissions will
-                                        by contacted by email to provide the code for their winning 
-                                        submission until 23:59 AOE 11/5/2023. Failure to provide code by 
-                                        this deadline will disqualifiy that submission. The code required is a 
-                                        self-contained Jupyter notebook that instantiates the predictive 
-                                        model, and is able to reproduce the submitted model predictions. 
-<!--                                         Winners will be awarded with price 
-                                        money: 🥇$750, 🥈$500 and 🥉$250 for 1st, 2nd and 3rd place respectively in 
-                                        both of our competition tracks SENSORIUM and SENSORIUM+. -->
-* **Evaluation**                     Organizers will have until 23:59 AOE 11/15/2023 to replicate the 
-                                        submission with the provided code. During this time, if the 
-                                        replication fails, the organizers will reach out to the participant. If the 
-                                        validation is not successful, the entry will be disqualified, and the 
-                                        next best ranked submission will be considered.
-* **One entry per day**        Each registered user or entity can submit only once per day 
-                                        (every 24h) at each competition track.
-* **Organizers**                     Members of the organizing labs are allowed to submit. Their 
-                                        submissions are not considered for ranking the competition winners.
+* **Submission deadline**   To be eligible for consideration, submissions must be sent between 
+                                        23:59 AOE (anywhere on earth) on June 1st, 2023, and 23:59 AOE on 
+                                        September 22nd, 2023.
+* **Valid email**                     Please ensure that your submission includes a valid email address
+                                        during registration.
+* **Winning**                         From each team we would take best-performing submission on the
+                                        live test set and evaluate these submissions on the final test set.
+                                        The top 3 submissions that outperform both ensembled baselines
+                                        on the final test set by 23:59 AOE on September 22nd, 2023, will be
+                                        considered for the winning positions. The participants responsible
+                                        for these submissions will receive an email notification and will have 
+                                        until 23:59 AOE on October 13th, 2023, to submit the code for their
+                                        winning entry. In order to qualify, the code should be a self-
+                                        contained Jupyter notebook that reproduces the submitted model 
+                                        predictions.
+* **Evaluation**                     The organizers will have time until 23:59 AOE on October 23rd,
+                                        2023, to replicate the submission with the provided code. 
+                                        If the replication fails, the organizers will reach out to the participant.
+                                        In case of the unsuccessful validation, the team will be disqualified, 
+                                        and the next highest-ranked submission will be considered.
+* **One entry per day**        Each registered user or team is allowed to submit one entry
+                                        per day per competition track.
+* **Organizers**                     Members of the organizing labs are welcome to submit their
+                                        work, but they will not be considered as winners.
 
 ## FAQ
 
