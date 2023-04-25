@@ -42,9 +42,8 @@ We think that from a biological perspective it is crucial to have not only good 
 * May 22    Full website and starting kit release.
 * June 01     Start of the competition and data release.
 * Sept 22    Submission deadline.
-* Sept 29    Validation of all submitted scores completed. Final test set scores released. 
-                 Rank 1-3 in both competition tracks are contacted to provide the code for 
-                 their submission.
+* Sept 29    Validation of all submitted scores completed. Final test set scores released. Rank 1-3 in
+                 both competition tracks are contacted to provide the code for their submission.
 * Oct 13      Deadline for top-ranked entries to provide the code for their submission.
 * Oct 23     Winners contacted to contribute to the competition summary write-up.
 
