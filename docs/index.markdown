@@ -14,6 +14,8 @@ layout: default
 
 Understanding how the brain processes visual input is a long standing goal in neuroscience. To solve this question in a quantitative, testable, and reproducible way, accurate predictive models of neural population responses to natural stimuli are crucial. However, even today's most advanced models of visual cortex are only able to account for a fraction of the observed neuronal activity. Furthermore, because there is an abundance of models and metrics, but no widely-used reference dataset, it is challenging to compare models on equal ground. This makes it difficult to determine the current state-of-the-art model.
 
+<img src="../assets/images/sensorium_2023_schematic.png" alt="SENSORIUM 2023 schematic">
+
 ## The SENSORIUM 2023 Competition
 
 **Benchmarking the predictive performance of your model on large-scale datasets.**
@@ -112,10 +114,8 @@ Feel free to also check out our competition from 2022: [SENSORIUM 2022](https://
 
 | Polina Turishcheva *(University of Göttingen)* | Eric Y. Wang *(Baylor College of Medicine)* |
 | Konstantin F. Willeke *(University of Tübingen)* | Paul G. Fahey *(Baylor College of Medicine)* |
-| Mohammad Bashiri *(University of Tübingen)* | Laura Hansel *(University of Göttingen)* |
-| Max F. Burg *(University of Göttingen)* | Christoph Blessing *(University of Göttingen)* |
-| Santiago A. Cadena *(University of Tübingen)* | Zhiwei Ding *(Baylor College of Medicine)* |
-| Konstantin-Klemens Lurz *(University of Tübingen)* | Kayla Ponder *(Baylor College of Medicine)* |
+| Laura Hansel *(University of Göttingen)* | Michaela Vystrčilová *(University of Göttingen)* |
+| Zhiwei Ding *(Baylor College of Medicine)* | Kayla Ponder *(Baylor College of Medicine)* |
 | Alexander Ecker *(University of Göttingen)* | Andreas S. Tolias *(Baylor College of Medicine)* |
 | Fabian H. Sinz *(University of Göttingen)* ||
 
